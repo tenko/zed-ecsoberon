@@ -13,3 +13,5 @@
 (procedure_declaration
   (procedure_header) @name
 ) @item
+
+(module_footer) @name @item
