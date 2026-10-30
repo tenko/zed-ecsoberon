@@ -1,0 +1,10 @@
+id = "zed-ecsoberon"
+name = "Zed ECSOberon"
+version = "0.0.1"
+schema_version = 1
+authors = ["RuTe"]
+description = "Zed ECSOberon (Oberon-02) language support"
+
+[grammars.ecsoberon]
+repository = "https://github.com/tenko/tree-sitter-ecsoberon"
+rev = "fd34d9b889948cec714266c5c9d93dbc4f6e3589"
