@@ -4,6 +4,7 @@ version = "0.0.1"
 schema_version = 1
 authors = ["RuTe"]
 description = "Zed ECSOberon (Oberon-02) language support"
+snippets = ["./snippets/ecsoberon.json"]
 
 [grammars.ecsoberon]
 repository = "https://github.com/tenko/tree-sitter-ecsoberon"

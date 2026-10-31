@@ -54,7 +54,6 @@
   "PROCEDURE"
   "IS"
   "FOR"
-  "TO"
   "LOOP"
   "DO"
   "REPEAT"
@@ -72,8 +71,7 @@
 ; Builting Types
 ((base_type_identifier) @type.builtin
   (#any-of? @type.builtin
-	"SET"
-  "LENGTH"
+  "SET"
   "INTEGER"
   "LONGINT"
   "SHORTINT"
@@ -81,6 +79,8 @@
   "REAL"
   "LONGREAL"
   "SHORTREAL"
+  "SHORTCARD"
+  "SHORTCOMPLEX"
   "CHAR"
   "CARDINAL"
   "COMPLEX"
@@ -98,9 +98,6 @@
   "SET16"
   "SET32"
   "SET64"
-  "SHORTCARD"
-  "SHORTCOMPLEX"
-  "SHORTREAL"
   "SIGNED8"
   "SIGNED16"
   "SIGNED32"

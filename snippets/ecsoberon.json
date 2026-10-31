@@ -1,0 +1,669 @@
+{
+  "MODULE declaration": {
+    "prefix": "module",
+    "description": "MODULE .. END skeleton",
+    "body": [
+      "MODULE ${1:Name};",
+      "$0",
+      "END ${1}."
+    ]
+  },
+
+  "PROCEDURE declaration": {
+    "prefix": "procedure",
+    "description": "PROCEDURE .. END skeleton",
+    "body": [
+      "PROCEDURE ${1:Name} $0;",
+      "BEGIN",
+      "END ${1};"
+    ]
+  },
+
+  "ARRAY keyword": {
+    "prefix": "array",
+    "description": "ARRAY keyword",
+    "body": "ARRAY"
+  },
+
+  "BEGIN keyword": {
+    "prefix": "begin",
+    "description": "BEGIN keyword",
+    "body": "BEGIN"
+  },
+
+  "CASE keyword": {
+    "prefix": "case",
+    "description": "CASE keyword",
+    "body": "CASE"
+  },
+
+  "CONST keyword": {
+    "prefix": "const",
+    "description": "CONST keyword",
+    "body": "CONST"
+  },
+
+  "DO keyword": {
+    "prefix": "do",
+    "description": "DO keyword",
+    "body": "DO"
+  },
+
+  "ELSE keyword": {
+    "prefix": "else",
+    "description": "ELSE keyword",
+    "body": "ELSE"
+  },
+
+  "ELSIF keyword": {
+    "prefix": "elsif",
+    "description": "ELSIF keyword",
+    "body": "ELSIF"
+  },
+
+  "END keyword": {
+    "prefix": "end",
+    "description": "END keyword",
+    "body": "END"
+  },
+
+  "FOR keyword": {
+    "prefix": "for",
+    "description": "FOR keyword",
+    "body": "FOR"
+  },
+
+  "IF keyword": {
+    "prefix": "if",
+    "description": "IF keyword",
+    "body": "IF"
+  },
+
+  "IMPORT keyword": {
+    "prefix": "import",
+    "description": "IMPORT keyword",
+    "body": "IMPORT"
+  },
+
+  "IN keyword": {
+    "prefix": "in",
+    "description": "IN keyword",
+    "body": "IN"
+  },
+
+  "IS keyword": {
+    "prefix": "is",
+    "description": "IS keyword",
+    "body": "IS"
+  },
+
+  "LOOP keyword": {
+    "prefix": "loop",
+    "description": "LOOP keyword",
+    "body": "LOOP"
+  },
+
+  "MODULE keyword": {
+    "prefix": "module",
+    "description": "MODULE keyword",
+    "body": "MODULE"
+  },
+
+  "OF keyword": {
+    "prefix": "of",
+    "description": "OF keyword",
+    "body": "OF"
+  },
+
+  "POINTER keyword": {
+    "prefix": "pointer",
+    "description": "POINTER keyword",
+    "body": "POINTER"
+  },
+
+  "PROCEDURE keyword": {
+    "prefix": "procedure",
+    "description": "PROCEDURE keyword",
+    "body": "PROCEDURE"
+  },
+
+  "RECORD keyword": {
+    "prefix": "record",
+    "description": "RECORD keyword",
+    "body": "RECORD"
+  },
+
+  "REPEAT keyword": {
+    "prefix": "repeat",
+    "description": "REPEAT keyword",
+    "body": "REPEAT"
+  },
+
+  "RETURN keyword": {
+    "prefix": "return",
+    "description": "RETURN keyword",
+    "body": "RETURN"
+  },
+
+  "THEN keyword": {
+    "prefix": "then",
+    "description": "THEN keyword",
+    "body": "THEN"
+  },
+
+  "TO keyword": {
+    "prefix": "to",
+    "description": "TO keyword",
+    "body": "TO"
+  },
+
+  "TYPE keyword": {
+    "prefix": "type",
+    "description": "TYPE keyword",
+    "body": "TYPE"
+  },
+
+  "UNTIL keyword": {
+    "prefix": "until",
+    "description": "UNTIL keyword",
+    "body": "UNTIL"
+  },
+
+  "VAR keyword": {
+    "prefix": "var",
+    "description": "VAR keyword",
+    "body": "VAR"
+  },
+
+  "WHILE keyword": {
+    "prefix": "while",
+    "description": "WHILE keyword",
+    "body": "WHILE"
+  },
+
+  "WITH keyword": {
+    "prefix": "with",
+    "description": "WITH keyword",
+    "body": "WITH"
+  },
+
+  "BOOLEAN type": {
+    "prefix": "boolean",
+    "description": "BOOLEAN type",
+    "body": "BOOLEAN"
+  },
+
+  "SYSTEM import": {
+    "prefix": "system",
+    "description": "SYSTEM import",
+    "body": "SYSTEM"
+  },
+
+  "CARDINAL type": {
+    "prefix": "cardinal",
+    "description": "CARDINAL type",
+    "body": "CARDINAL"
+  },
+
+  "CHAR type": {
+    "prefix": "char",
+    "description": "CHAR type",
+    "body": "CHAR"
+  },
+
+  "COMPLEX type": {
+    "prefix": "complex",
+    "description": "COMPLEX type",
+    "body": "COMPLEX"
+  },
+
+  "COMPLEX32 type": {
+    "prefix": "complex32",
+    "description": "COMPLEX32 type",
+    "body": "COMPLEX32"
+  },
+
+  "COMPLEX64 type": {
+    "prefix": "complex64",
+    "description": "COMPLEX64 type",
+    "body": "COMPLEX64"
+  },
+
+  "HUGECARD type": {
+    "prefix": "hugecard",
+    "description": "HUGECARD type",
+    "body": "HUGECARD"
+  },
+
+  "HUGEINT type": {
+    "prefix": "hugeint",
+    "description": "HUGEINT type",
+    "body": "HUGEINT"
+  },
+
+  "INTEGER type": {
+    "prefix": "integer",
+    "description": "INTEGER type",
+    "body": "INTEGER"
+  },
+
+  "LENGTH type": {
+    "prefix": "length",
+    "description": "LENGTH type",
+    "body": "LENGTH"
+  },
+
+  "LONGCARD type": {
+    "prefix": "longcard",
+    "description": "LONGCARD type",
+    "body": "LONGCARD"
+  },
+
+  "LONGCOMPLEX type": {
+    "prefix": "longcomplex",
+    "description": "LONGCOMPLEX type",
+    "body": "LONGCOMPLEX"
+  },
+
+  "LONGINT type": {
+    "prefix": "longint",
+    "description": "LONGINT type",
+    "body": "LONGINT"
+  },
+
+  "LONGREAL type": {
+    "prefix": "longreal",
+    "description": "LONGREAL type",
+    "body": "LONGREAL"
+  },
+
+  "LONGSET type": {
+    "prefix": "longset",
+    "description": "LONGSET type",
+    "body": "LONGSET"
+  },
+
+  "REAL type": {
+    "prefix": "real",
+    "description": "REAL type",
+    "body": "REAL"
+  },
+
+  "REAL32 type": {
+    "prefix": "real32",
+    "description": "REAL32 type",
+    "body": "REAL32"
+  },
+
+  "REAL64 type": {
+    "prefix": "real64",
+    "description": "REAL64 type",
+    "body": "REAL64"
+  },
+
+  "SET type": {
+    "prefix": "set",
+    "description": "SET type",
+    "body": "SET"
+  },
+
+  "SET16 type": {
+    "prefix": "set16",
+    "description": "SET16 type",
+    "body": "SET16"
+  },
+
+  "SET32 type": {
+    "prefix": "set32",
+    "description": "SET32 type",
+    "body": "SET32"
+  },
+
+  "SET64 type": {
+    "prefix": "set64",
+    "description": "SET64 type",
+    "body": "SET64"
+  },
+
+  "SET8 type": {
+    "prefix": "set8",
+    "description": "SET8 type",
+    "body": "SET8"
+  },
+
+  "SHORTCARD type": {
+    "prefix": "shortcard",
+    "description": "SHORTCARD type",
+    "body": "SHORTCARD"
+  },
+
+  "SHORTCOMPLEX type": {
+    "prefix": "shortcomplex",
+    "description": "SHORTCOMPLEX type",
+    "body": "SHORTCOMPLEX"
+  },
+
+  "SHORTINT type": {
+    "prefix": "shortint",
+    "description": "SHORTINT type",
+    "body": "SHORTINT"
+  },
+
+  "SHORTREAL type": {
+    "prefix": "shortreal",
+    "description": "SHORTREAL type",
+    "body": "SHORTREAL"
+  },
+
+  "SIGNED16 type": {
+    "prefix": "signed16",
+    "description": "SIGNED16 type",
+    "body": "SIGNED16"
+  },
+
+  "SIGNED32 type": {
+    "prefix": "signed32",
+    "description": "SIGNED32 type",
+    "body": "SIGNED32"
+  },
+
+  "SIGNED64 type": {
+    "prefix": "signed64",
+    "description": "SIGNED64 type",
+    "body": "SIGNED64"
+  },
+
+  "SIGNED8 type": {
+    "prefix": "signed8",
+    "description": "SIGNED8 type",
+    "body": "SIGNED8"
+  },
+
+  "UNSIGNED16 type": {
+    "prefix": "unsigned16",
+    "description": "UNSIGNED16 type",
+    "body": "UNSIGNED16"
+  },
+
+  "UNSIGNED32 type": {
+    "prefix": "unsigned32",
+    "description": "UNSIGNED32 type",
+    "body": "UNSIGNED32"
+  },
+
+  "UNSIGNED64 type": {
+    "prefix": "unsigned64",
+    "description": "UNSIGNED64 type",
+    "body": "UNSIGNED64"
+  },
+
+  "UNSIGNED8 type": {
+    "prefix": "unsigned8",
+    "description": "UNSIGNED8 type",
+    "body": "UNSIGNED8"
+  },
+
+  "SYSTEM.BYTE type": {
+    "prefix": "system.byte",
+    "description": "SYSTEM.BYTE type",
+    "body": "SYSTEM.BYTE"
+  },
+
+  "SYSTEM.SET type": {
+    "prefix": "system.set",
+    "description": "SYSTEM.SET type",
+    "body": "SYSTEM.SET"
+  },
+
+  "SYSTEM.LENGTH type": {
+    "prefix": "system.length",
+    "description": "SYSTEM.LENGTH type",
+    "body": "SYSTEM.LENGTH"
+  },
+
+  "SYSTEM.ADDRESS type": {
+    "prefix": "system.address",
+    "description": "SYSTEM.ADDRESS type",
+    "body": "SYSTEM.ADDRESS"
+  },
+
+  "ABS procedure": {
+    "prefix": "abs",
+    "description": "Absolute value of x",
+    "body": "ABS($0)"
+  },
+
+  "ASH procedure": {
+    "prefix": "ash",
+    "description": "Arithmetic shift left (x ∗ 2^n)",
+    "body": "ASH($0)"
+  },
+
+  "CAP procedure": {
+    "prefix": "cap",
+    "description": "Corresponding capital letter of x",
+    "body": "CAP($0)"
+  },
+
+  "CHR procedure": {
+    "prefix": "chr",
+    "description": "Character with ordinal number x",
+    "body": "CHR($0)"
+  },
+
+  "ENTIER procedure": {
+    "prefix": "entier",
+    "description": "Largest integer not greater than x",
+    "body": "ENTIER($0)"
+  },
+
+  "LEN procedure": {
+    "prefix": "len",
+    "description": "Length of v in dimension n (first dimension = 0)",
+    "body": "LEN($0)"
+  },
+
+  "LONG procedure": {
+    "prefix": "long",
+    "description": "Idenity",
+    "body": "LONG($0)"
+  },
+
+  "MAX procedure": {
+    "prefix": "max",
+    "description": "Maximum value fo TYPE or maximum value of element in SET type",
+    "body": "MAX($0)"
+  },
+
+  "MIN procedure": {
+    "prefix": "min",
+    "description": "Minimum value fo TYPE or minimum value of element in SET type (0)",
+    "body": "MIN($0)"
+  },
+
+  "ODD procedure": {
+    "prefix": "odd",
+    "description": "x MOD 2 = 1",
+    "body": "ODD($0)"
+  },
+
+  "ORD procedure": {
+    "prefix": "ord",
+    "description": "Ordinal number of x",
+    "body": "ORD($0)"
+  },
+
+  "SHORT procedure": {
+    "prefix": "short",
+    "description": "Idenity",
+    "body": "SHORT($0)"
+  },
+
+  "SIZE procedure": {
+    "prefix": "size",
+    "description": "Number of bytes needed to represent TYPEOF(x)",
+    "body": "SIZE($0)"
+  },
+
+  "IM procedure": {
+    "prefix": "im",
+    "description": "Imaginary part of complex number x",
+    "body": "IM($0)"
+  },
+
+  "PTR procedure": {
+    "prefix": "ptr",
+    "description": "Return pointer to x",
+    "body": "PTR($0)"
+  },
+
+  "RE procedure": {
+    "prefix": "re",
+    "description": "Real part of complex number x",
+    "body": "RE($0)"
+  },
+
+  "SEL procedure": {
+    "prefix": "sel",
+    "description": "IF expr1 THEN expr2 ELSE expr3 END",
+    "body": "SEL($0)"
+  },
+
+  "ASSERT procedure": {
+    "prefix": "assert",
+    "description": "Terminate program execution if not x",
+    "body": "ASSERT($0)"
+  },
+
+  "COPY procedure": {
+    "prefix": "copy",
+    "description": "v := x",
+    "body": "COPY($0)"
+  },
+
+  "DEC procedure": {
+    "prefix": "dec",
+    "description": "v := v - 1|n",
+    "body": "DEC($0)"
+  },
+
+  "EXCL procedure": {
+    "prefix": "excl",
+    "description": "v := v - n",
+    "body": "EXCL($0)"
+  },
+
+  "HALT procedure": {
+    "prefix": "halt",
+    "description": "Terminate program execution with error code n",
+    "body": "HALT($0)"
+  },
+
+  "INC procedure": {
+    "prefix": "inc",
+    "description": "v := v + 1|n",
+    "body": "INC($0)"
+  },
+
+  "INCL procedure": {
+    "prefix": "incl",
+    "description": "v := v - n",
+    "body": "INCL($0)"
+  },
+
+  "NEW procedure": {
+    "prefix": "new",
+    "description": "Allocate pointer to record/fixed array or pointer to open array",
+    "body": "NEW($0)"
+  },
+
+  "DISPOSE procedure": {
+    "prefix": "dispose",
+    "description": "Deallocate pointer to record/array and set v to NIL",
+    "body": "DISPOSE($0)"
+  },
+
+  "IGNORE procedure": {
+    "prefix": "ignore",
+    "description": "Evalute expr and ignore result",
+    "body": "IGNORE($0)"
+  },
+
+  "TRACE procedure": {
+    "prefix": "trace",
+    "description": "Print output of result of expr evaluation",
+    "body": "TRACE($0)"
+  },
+
+  "SYSTEM.ADR procedure": {
+    "prefix": "system.adr",
+    "description": "Address of variable v",
+    "body": "SYSTEM.ADR($0)"
+  },
+
+  "SYSTEM.BIT procedure": {
+    "prefix": "system.bit",
+    "description": "Bit n of Mem[a]",
+    "body": "SYSTEM.BIT($0)"
+  },
+
+  "SYSTEM.LSH procedure": {
+    "prefix": "system.lsh",
+    "description": "Logical shift x +/-n bits",
+    "body": "SYSTEM.LSH($0)"
+  },
+
+  "SYSTEM.ROT procedure": {
+    "prefix": "system.rot",
+    "description": "Rotate x +/-n bits",
+    "body": "SYSTEM.ROT($0)"
+  },
+
+  "SYSTEM.VAL procedure": {
+    "prefix": "system.val",
+    "description": "x interpreted as of type T",
+    "body": "SYSTEM.VAL($0)"
+  },
+
+  "SYSTEM.GET procedure": {
+    "prefix": "system.get",
+    "description": "v := Mem[a]",
+    "body": "SYSTEM.GET($0)"
+  },
+
+  "SYSTEM.PUT procedure": {
+    "prefix": "system.put",
+    "description": "Mem[a] := v",
+    "body": "SYSTEM.PUT($0)"
+  },
+
+  "SYSTEM.MOVE procedure": {
+    "prefix": "system.move",
+    "description": "Mem[a1..a1+n-1] := Mem[a0..a0+n-1]",
+    "body": "SYSTEM.MOVE($0)"
+  },
+
+  "SYSTEM.NEW procedure": {
+    "prefix": "system.new",
+    "description": "Allocate pointer to record/fixed array or pointer to open array",
+    "body": "SYSTEM.NEW($0)"
+  },
+
+  "SYSTEM.ASM procedure": {
+    "prefix": "system.asm",
+    "description": "Generate inline assebler",
+    "body": "SYSTEM.ASM($0)"
+  },
+
+  "SYSTEM.CODE procedure": {
+    "prefix": "system.code",
+    "description": "Generate intermediate code",
+    "body": "SYSTEM.CODE($0)"
+  },
+
+  "SYSTEM.DISPOSE procedure": {
+    "prefix": "system.dispose",
+    "description": "Deallocate pointer to record/array and set v to NIL",
+    "body": "SYSTEM.DISPOSE($0)"
+  },
+}
