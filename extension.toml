@@ -7,4 +7,4 @@ description = "Zed ECSOberon (Oberon-02) language support"
 
 [grammars.ecsoberon]
 repository = "https://github.com/tenko/tree-sitter-ecsoberon"
-rev = "aa18d00695792bee4aa9ab82bfb7900dac27d9d1"
+rev = "01d1c1e1fed009a8109761a7fa3d5b11c60b4551"

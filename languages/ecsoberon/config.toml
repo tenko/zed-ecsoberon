@@ -11,5 +11,5 @@ brackets = [
     { start = "'", end = "'", close = true, newline = false, not_in = ["string"] },
 ]
 auto_indent_using_last_non_empty_line = false
-increase_indent_pattern = "(DO|THEN|LOOP|REPEAT)"
+increase_indent_pattern = "(VAR|CONST|TYPE|BEGIN|DO|THEN|LOOP|REPEAT)"
 decrease_indent_pattern = "^\\s*END\\b"
