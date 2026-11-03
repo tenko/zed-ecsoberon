@@ -16,15 +16,17 @@
   name: (identifier_exported) @name
 ) @item
 
+(procedure_declaration
 (method_header
   "PROCEDURE" @context
   receiver: (receiver) @context.extra
   name: (identifier_exported) @name
-) @item
+) @item )
 
+(procedure_declaration
 (procedure_header
   "PROCEDURE" @context
   name: (identifier_exported) @name
-) @item
+) @item )
 
 (module_footer) @name @item
