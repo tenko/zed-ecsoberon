@@ -8,4 +8,4 @@ snippets = ["./snippets/ecsoberon.json"]
 
 [grammars.ecsoberon]
 repository = "https://github.com/tenko/tree-sitter-ecsoberon"
-rev = "01d1c1e1fed009a8109761a7fa3d5b11c60b4551"
+rev = "72f8c4e401ea8c5dd07de55c7aacc5748f903ba2"
